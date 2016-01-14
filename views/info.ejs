@@ -10,9 +10,9 @@
 <table width="900" border="1" cellspacing="0" cellpadding="2">
     <th>用户名</th>
     <th>用户地址</th>
-    <% for(var i=0;i<10;i++){ %>
+    <% for(var i=0;i<queryRlt.length;i++){ %>
     <tr>
-        <td>学生名字<%=i%></td>
+        <td>学生年纪<%=queryRlt[i]['age']%></td>
         <td>学生地址</td>
     </tr>
     <%}%>>
